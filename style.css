@@ -1,0 +1,106 @@
+.mainbutton{
+    box-shadow: 4px 4px 6px #1b1b1b79;
+    float:left;
+    background-color:#ff4e4e;
+    height:99px;
+    width:215px;
+}
+.logo{
+    background-image: url(logo.png);
+    width:61px;
+    height:100px;
+}
+@font-face {
+	font-family: "roadrage";
+	src: url('Road_Rage.otf');
+}
+@font-face{
+    font-family: "marketdeco";
+    src: url('Market_Deco.ttf');
+}
+h1.nomsite{
+    float:left;
+    color:#feffdd;
+    text-align:right;
+    margin-left:52%;
+    margin-top:0%;
+    font-size:16px;
+    font-family: roadrage;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: marketdeco;
+}
+
+/* Menu déroulant */
+
+nav ul{
+    list-style-type: none;
+}
+nav li.deroulant{
+    float:left;
+    width:340px;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+nav{
+    box-shadow: 4px 4px 6px #1b1b1b79;
+    width: 1700px;
+    margin: 0 auto;
+    background-color: #ff4e4e;
+    position: sticky;
+    top:0px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #feffdd;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color: #0000ff;
+    border-bottom:2px solid #0000ff;
+}
+
+.sous{
+    display:none;
+    box-shadow: 4px 4px 6px #1b1b1b79;
+    background-color:#000000;
+    position: absolute;
+    width:100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display:block;
+}
+.sous li{
+    float:none;
+    width:100%;
+    text-align:left;
+}
+.sous a{
+    padding:10px;
+    border-bottom:none;
+}
+.sous a:hover{
+    border-bottom:none;
+    background-color: #ff4e4e;
+}
+nav ul li{
+    float: left;
+    width:25%;
+    text-align:center;
+    position:relative;
+}
+
+/* Fin menu */
+
+.menu{
+    float:left;
+}
