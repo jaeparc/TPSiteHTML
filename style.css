@@ -3,7 +3,7 @@
     float:left;
     background-color:#ff4e4e;
     height:99px;
-    width:215px;
+    width:20%;
 }
 .logo{
     background-image: url(logo.png);
@@ -40,7 +40,7 @@ nav ul{
 }
 nav li.deroulant{
     float:left;
-    width:340px;
+    width:20%;
     text-align: center;
 }
 nav ul::after{
@@ -50,10 +50,10 @@ nav ul::after{
 }
 nav{
     box-shadow: 4px 4px 6px #1b1b1b79;
-    width: 1700px;
+    width: 80%;
     margin: 0 auto;
     background-color: #ff4e4e;
-    position: sticky;
+    position: absolute;
     top:0px;
 }
 nav a{
@@ -103,4 +103,23 @@ nav ul li{
 
 .menu{
     float:left;
+}
+
+.parchemin{
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+    height:300%;
+    box-shadow: 0px 0px 12px #1b1b1b79;
+}
+
+h1.hgtitle{
+    font-family: marketdeco;
+    font-size:32px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
 }
